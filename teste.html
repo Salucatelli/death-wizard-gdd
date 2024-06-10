@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDD - Death Wizard</title>
+
+    <link href="css/gallery-1.css" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'gotico';
+            src: url('Pieces of Eight.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'gotico', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+            font-style: normal;
+            zoom: 1.75;
+            /* Define a escala para 150% */
+        }
+
+        header,
+        footer {
+            background-color: #333;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #2a2a2a;
+            border-radius: 8px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #f0f0f0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #333;
+            border: 1px solid #555;
+            color: #f0f0f0;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #444;
+            color: #f0f0f0;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        .horizontal-align {
+            display: flex;
+            flex-direction: line;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Death Wizard</h1>
+        <nav>
+            <ul>
+                <!-- <li><a href="#inicio">Início</a></li> -->
+                <li><a href="#historia">História</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#Monstros">Monstros</a></li>
+                <li><a href="#mecanicas">Mecânicas de Jogo</a></li>
+                <li><a href="#mundo">Mundo do Jogo</a></li>
+                <li><a href="#arte-som">Arte e Som</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://github.com/Salucatelli/death-wizard">Download</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- <section id="inicio">
+            <center>
+                <h2>Início</h2>
+            </center>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section> -->
+
+        <section id="historia">
+            <center>
+                <h2>História</h2>
+            </center>
+            <p>- Certa vez um mago que buscava imortalidade, realizou proeza de escapar de sua morte tomando ciência de
+                dois planos, o carnal e o espiritual, podendo observar criaturas e magias invisíveis à olhos mortais.
+                Isto atraiu a atenção da Morte, que ao observar uma alma fora de seu controle, decide tomar a vida do
+                mago.</p>
+            <p>- As criaturas do mundo espiritual são como reflexos de aparições em mitologias e lendas urbanas, e a
+                única arma do mundo carnal capaz de feri-las é a prata. O mago, sem muito controle sobre seu rumo, acaba
+                atraído para um reino recém abandonado por conta de uma praga, tomada pela grande concentração de
+                espíritos errantes e malignos, local depois corrompido pelo poder da própria Morte na tentativa de
+                combater a essência errante do mago.</p>
+
+        </section>
+
+        <section id="personagens">
+
+            <center>
+                <h2>Protagonista</h2>
+            </center>
+
+            <center>
+                <h3>Herói:</h3>
+                <img src="prota.jpeg" width="20%" height="20%">
+                <p><strong>Nome:</strong> Reinal Griffing</p>
+                <p><strong>Descrição:</strong> Mago poderoso que enganou a Morte</p>
+                <p><strong>Habilidades:</strong> Uma Foice capaz de cortar qualquer coisa</p>
+
+            </center>
+
+        </section>
+
+        <section id="Monstros">
+
+            <center>
+                <h2>Monstros</h2>
+            </center>
+
+            <center>
+                <h3>Gargula:</h3>
+                <img src="gargula.jpeg" width="200" height="150">
+                <p><strong>Nome:</strong> Gargula </br>
+                    <strong>Descrição:</strong> Inimigo voador.</br>
+                    <strong>Habilidades:</strong> Ataque aéreo ao personagem
+                </p>
+
+            </center>
+
+            <center>
+                <h2>Zombie</h2>
+            </center>
+
+            <center>
+                <h3>Monstro rastejante:</h3>
+                <img src="zombie.jfif" width="200" height="150">
+                <p><strong>Nome:</strong> Gargula</br>
+                    <strong>Descrição:</strong> Inimigo rastejante</br>
+                    <strong>Habilidades:</strong> Movimentação de inimigo Patrulheiro
+                </p>
+
+            </center>
+
+        </section>
+
+        <section id="mecanicas">
+            <center>
+                <h2>Mecânicas de Jogo</h2>
+            </center>
+            <h3>Combate:</h3>
+            <p>Utilizando as teclas "A" e "D" o jogador é capaz de andar para direita e esquerda, com a tecla "Espaço" o
+                jogagor pode pular e clicando o botão esquerdo do mouse realizar um ataque com a foice. O Jogado possui
+                3 vidas no começo so jogo, e cada vez que o jogador sofre um ataque do inimigo perde uma vida. Mas, pelo
+                cenário é possível encontrar powerUps de vida para recuipera-la. </p>
+
+            <h3>Exploração:</h3>
+            <p>No momento, o jogo não possui muita exploração, porém no futuro serão adicionadas novas fases, aumentando
+                as possibilidades de exploração.</p>
+
+        </section>
+
+        <section id="mundo">
+            <center>
+                <h2>Mundo do Jogo</h2>
+            </center>
+            <h3>Regiões:</h3>
+            <ul>
+                <li><strong>Castelo:</strong> Uma floresta mágica habitada por criaturas benevolentes.
+                </li>
+                <li><strong>Mais regiões serão adicionadas futuramente.</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section id="arte-som">
+            <center>
+                <h2>Arte e Som</h2>
+            </center>
+            <h3>Estilo de Arte:</h3>
+            <p><strong>Visual:</strong> Gráficos estilizados com uma paleta de cores vibrante para destacar o ambiente
+                mágico.</br>
+                <strong>Personagens:</strong> Desenhos detalhados com trajes e armas que refletem suas personalidades e
+                habilidades.
+            </p>
+
+            <h3>Trilha Sonora:</h3>
+            <p><strong>Composição:</strong> Música orquestral épica com temas específicos para cada região.</br>
+                <strong>Efeitos Sonoros:</strong> Sons realistas de combate, magia e ambiente para uma imersão completa.
+            </p>
+        </section>
+        <!--fechando-->
+        <CENTER>
+            <section id="contato">
+                <h1>INTEGRANTES</h1>
+
+
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="marolla.jpg" class="horizontal-align" width="80%" height="80%"
+                                    border="1px solid #000">
+                                <div class="card-body">
+                                    <p class="card-text">MAROLLA</br>
+                                        ARTE</br>
+                                        <a href="https://www.linkedin.com/in/guilherme-marolla-bb3196255/"
+                                            target="_blank">Linkdin</a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="iago.jpg" class="card-img-top" width="80%" height="80%"
+                                    border="1px solid #000">
+                                <div class="card-body">
+                                    <p class="card-text">IAGO</br>
+                                        MUSICA
+                                        </br>
+                                        <a href="https://www.linkedin.com/in/iago-mickael-dos-santos-6a7603234/"
+                                            target="_blank">Linkdin</a>
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Samuel.png" class="card-img-top" width="80%" height="80%"
+                                    border="1px solid #000">
+                                <div class="card-body">
+                                    <p class="card-text">SAMUEL</br>
+                                        JOGO
+                                        </br>
+                                        <a href="https://www.linkedin.com/in/samuel-augusto-lot-lucatelli-007811234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                            target="_blank">Linkdin</a>
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="matheus.png" class="card-img-top" width="80%" height="80%"
+                                    border="1px solid #000">
+                                <div class="card-body">
+                                    <p class="card-text">MATHEUS</br>GDD</br>
+                                        <a href="https://twitter.com" target="_blank">Linkdin</a>
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="andre.png" class="card-img-top" width="80%" height="80%"
+                                    border="1px solid #000">
+                                <div class="card-body">
+                                    <p class="card-text">ANDRE</br>GDD</br>
+                                        <a href="http://linkedin.com/in/andr%C3%A9-lu%C3%ADs-dias-23869597">Linkdin</a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+    </CENTER>
+    <!-- Vou tentar colocar os integrantes do grupo dentro de uma grid-->
+
+
+
+
+
+
+    <!--fechando-->
+    <footer>
+        <p>Desenvolvido Por Alunos da FHO-Araras</p>
+    </footer>
+</body>
+
+</html>
