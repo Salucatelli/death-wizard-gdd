@@ -99,6 +99,37 @@
             justify-content: center;
             height: auto;
         }
+
+
+
+
+        @media (max-width: 700px) {
+          h2 {
+            color: purple;
+          }
+        }
+
+        /*  - Mobile first */
+        @media (min-width: 200px) {
+          h2 {
+            color: teal;
+          }
+        }
+
+        /*  - AND na media query */
+        @media (min-width: 200px) and (max-width: 300px) {
+          h3 {
+            font-size: 3em;
+          }
+        }
+
+        /*  - OR na media query */
+        @media (max-width: 50px), (orientation: landscape) {
+          h3 {
+            font-size: 2em;
+          }
+        }
+
     </style>
 
 </head>
@@ -154,10 +185,10 @@
 
             <center>
                 <h3>Herói:</h3>
-                <img src="prota.jpeg" width="20%" height="20%">
-                <p><strong>Nome:</strong> Reinal Griffing</p>
-                <p><strong>Descrição:</strong> Mago poderoso que enganou a Morte</p>
-                <p><strong>Habilidades:</strong> Uma Foice capaz de cortar qualquer coisa</p>
+                <img src="prota.jpeg" width="40%" height="40%">
+                <p><strong>Nome:</strong> Reinal Griffing</br>
+                <strong>Descrição:</strong> Mago poderoso que enganou a Morte</br>
+                <strong>Habilidades:</strong> Uma Foice capaz de cortar qualquer coisa</p>
 
             </center>
 
@@ -167,12 +198,12 @@
 
             <center>
                 <h2>Monstros</h2>
+                <h3>Gargula</h3>
             </center>
 
             <center>
-                <h3>Gargula:</h3>
-                <img src="gargula.jpeg" width="200" height="150">
-                <p><strong>Nome:</strong> Gargula </br>
+                <img src="gargula.jpeg" width="50%" height="50%" border="1px solid #FFDEAD">
+                <p>
                     <strong>Descrição:</strong> Inimigo voador.</br>
                     <strong>Habilidades:</strong> Ataque aéreo ao personagem
                 </p>
@@ -180,13 +211,14 @@
             </center>
 
             <center>
-                <h2>Zombie</h2>
+        
             </center>
 
             <center>
-                <h3>Monstro rastejante:</h3>
-                <img src="zombie.jfif" width="200" height="150">
-                <p><strong>Nome:</strong> Gargula</br>
+
+                     <h3>Zombie</h3>
+                <img src="zombie.jfif" width="40%" height="40%" border="1px solid #FFDEAD">
+                <p>
                     <strong>Descrição:</strong> Inimigo rastejante</br>
                     <strong>Habilidades:</strong> Movimentação de inimigo Patrulheiro
                 </p>
@@ -219,7 +251,7 @@
             <ul>
                 <li><strong>Castelo:</strong> Uma floresta mágica habitada por criaturas benevolentes.
                 </li>
-                <li><strong>Mais regiões serão adicionadas futuramente.</strong>
+                <li><I>Mais regiões serão adicionadas futuramente.</I>
                 </li>
             </ul>
         </section>
@@ -243,14 +275,14 @@
         <!--fechando-->
         <CENTER>
             <section id="contato">
-                <h1>INTEGRANTES</h1>
+                <h2>Contato</h2>
 
 
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-sm-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="marolla.jpg" class="horizontal-align" width="80%" height="80%"
+                            <div class="card" >
+                                <img src="marolla.jpg" class="horizontal-align" width="50%" height="50%"
                                     border="1px solid #000">
                                 <div class="card-body">
                                     <p class="card-text">MAROLLA</br>
@@ -264,8 +296,8 @@
                         </div>
                         <br />
                         <div class="col-sm-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="iago.jpg" class="card-img-top" width="80%" height="80%"
+                            <div class="card">
+                                <img src="iago.jpg" class="card-img-top" width="50%" height="50%"
                                     border="1px solid #000">
                                 <div class="card-body">
                                     <p class="card-text">IAGO</br>
@@ -283,8 +315,8 @@
                     <br />
                     <div class="row">
                         <div class="col-sm-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="Samuel.png" class="card-img-top" width="80%" height="80%"
+                            <div class="card">
+                                <img src="Samuel.png" class="card-img-top" width="50%" height="50%"
                                     border="1px solid #000">
                                 <div class="card-body">
                                     <p class="card-text">SAMUEL</br>
@@ -300,8 +332,8 @@
                         </div>
                         <br />
                         <div class="col-sm-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="matheus.png" class="card-img-top" width="80%" height="80%"
+                            <div class="card">
+                                <img src="matheus.png" class="card-img-top" width="50%" height="50%"
                                     border="1px solid #000">
                                 <div class="card-body">
                                     <p class="card-text">MATHEUS</br>GDD</br>
@@ -315,8 +347,8 @@
                         </div>
                         <br />
                         <div class="col-sm-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="andre.png" class="card-img-top" width="80%" height="80%"
+                            <div class="card">
+                                <img src="andre.png" class="card-img-top" width="50%" height="50%"
                                     border="1px solid #000">
                                 <div class="card-body">
                                     <p class="card-text">ANDRE</br>GDD</br>
